@@ -1,0 +1,18 @@
+QuotesProvider
+----------------
+
+A ContentProvider. Stores the quotes in SQL database.
+Provides basic CRUD operations.
+
+QuotesModel
+-------------
+
+This should talk to the ContentProvider via a ContentResolver.
+It is used by the QuotesAdater and any other class that needs to access quotes data.
+Provides operations like these:
+* loadQuotes()
+* deleteQuote()
+* addQuote()
+* updateQuote()
+
+
